@@ -1,16 +1,8 @@
 pip install flask
 
-# Create the main Python file
-touch app.py
-
-# Create the HTML templates folder
-mkdir templates
-
-# Inside the templates folder, create the index.html file
-touch templates/index.html
-
-# Create the requirements file for dependencies
-touch requirements.txt
-
-# Create a .gitignore file
-touch .gitignore
+cancer-survivor-platform/
+├── app.py             # Main application file
+├── templates/         # Folder for HTML files
+│   └── index.html     # Homepage for input
+├── requirements.txt   # Python dependencies
+└── .gitignore         # Ignore unnecessary files in Git
