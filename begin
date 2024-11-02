@@ -1,0 +1,8 @@
+pip install flask
+
+Pathway-platform/
+├── app.py             # Main application file
+├── templates/         # Folder for HTML files
+│   └── index.html     # Homepage for input
+├── requirements.txt   # Python dependencies
+└── .gitignore         # Ignore unnecessary files in Git
